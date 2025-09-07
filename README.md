@@ -86,6 +86,7 @@ npm run preview
 - [需求文档](./src/docs/requirements.md)：详细的功能需求和非功能需求
 - [用户手册](./src/docs/user_manual.md)：应用使用指南
 - [技术指南](./src/docs/technical_guide.md)：技术架构和开发指南
+- [初学者指南](./src/docs/beginners_guide.md)：帮助新手快速上手
 
 ## 主要功能模块
 
