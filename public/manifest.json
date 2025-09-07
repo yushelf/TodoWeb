@@ -1,0 +1,80 @@
+{
+  "name": "Todo应用",
+  "short_name": "Todo",
+  "description": "高效的任务管理和番茄钟应用",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1976d2",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "任务列表",
+      "short_name": "任务",
+      "description": "查看您的任务列表",
+      "url": "/tasks",
+      "icons": [{ "src": "/icons/tasks-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "番茄钟",
+      "short_name": "番茄钟",
+      "description": "开始一个番茄钟会话",
+      "url": "/pomodoro",
+      "icons": [{ "src": "/icons/pomodoro-icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["productivity", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}

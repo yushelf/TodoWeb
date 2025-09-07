@@ -1,0 +1,37 @@
+{
+  "name": "todo_web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.1",
+    "@mui/material": "^7.3.1",
+    "@mui/x-date-pickers": "^8.10.0",
+    "@mui/x-date-pickers-pro": "^8.10.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/uuid": "^10.0.0",
+    "chart.js": "^4.5.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^4.1.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.8.1",
+    "uuid": "^11.1.0",
+    "zustand": "^5.0.8"
+  }
+}

@@ -1,0 +1,59 @@
+# 配置文件
+
+# 新问题的默认标签
+new_issue_label: needs-triage
+
+# 关闭的问题和PR的标签
+closed_issue_label: closed
+closed_pr_label: closed
+
+# 问题的排序方式
+issue_order: created_at
+
+# 代码所有者
+code_owners:
+  - username: admin
+    name: 管理员
+    email: admin@example.com
+    files:
+      - "**/*"
+  - username: frontend-dev
+    name: 前端开发者
+    email: frontend@example.com
+    files:
+      - "src/**/*.tsx"
+      - "src/**/*.ts"
+      - "src/**/*.css"
+  - username: backend-dev
+    name: 后端开发者
+    email: backend@example.com
+    files:
+      - "server/**/*"
+
+# 自动分配审阅者
+reviewers:
+  - frontend-dev
+  - backend-dev
+
+# PR模板配置
+pr_template:
+  - value: bug
+    label: bug
+    template: .github/PULL_REQUEST_TEMPLATE/bug_fix.md
+  - value: feature
+    label: enhancement
+    template: .github/PULL_REQUEST_TEMPLATE/feature.md
+
+# 自动标记为过时的问题
+stale:
+  daysUntilStale: 60
+  daysUntilClose: 7
+  exemptLabels:
+    - pinned
+    - security
+  staleLabel: wontfix
+  markComment: >
+    此问题已被自动标记为过时，因为它已经60天没有活动了。
+    如果没有进一步的活动，它将在7天后关闭。谢谢您的贡献！
+  closeComment: >
+    此问题已自动关闭，因为它已被标记为过时7天。

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>高效番茄 - 基于七个习惯的时间管理工具</title>
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1976d2" />
+    
+    <!-- iOS支持 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Todo应用" />
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="/assets/index.js" as="script" />
+    <link rel="preload" href="/assets/index.css" as="style" />
+    
+    <!-- DNS预解析 -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    
+    <!-- 预连接 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- 描述和关键词 -->
+    <meta name="description" content="高效番茄是一款基于七个习惯的时间管理工具，帮助您提高工作效率和专注力。" />
+    <meta name="keywords" content="番茄钟,时间管理,任务管理,目标设定,七个习惯" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
